@@ -36,9 +36,7 @@ a,b: params to control number of tweets each user sent, which is a*number_of_fol
 Result will print out client behavior, like 
 
     CLIENT > Success: User registered
-
     CLIENT > Success: succeed to subscribe
-
     CLIENT > Success: succeed to send tweet
    
 And whenever any process finish all his behavior (finish subscribe and tweets and retweets sent reaches the number specified in "behavior"), it will refresh its tweet live and print it out on screen;
@@ -46,17 +44,11 @@ And whenever any process finish all his behavior (finish subscribe and tweets an
 When all processes finish their "behavior", the simulation system exits, and prints out various kinds of requests server handles in total, and time taken for handling these requests, like the following
 
     Total subscribing requests server handled: 675
-    
     Total send_tweet requests server handled: 2000
-   
     Total send_retweet requests server handled: 1000
-   
     Total register requests server handled: 1000
-   
     Total login requests server handled: 3000  
-   
     Total requests handled by server: 7675
-   
     Total time taken for these requests: 0.46439s
 
 ****form of tweet live:****
