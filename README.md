@@ -1,5 +1,7 @@
 # MyTwitterSimulator
-Build a twitter engine and simulate thousands of users interact with that engine, interacts include: register account, log in, sent tweet, re-tweet, subscribe, query using subscriber name, using hashtag, using mentioned.   
+Build a twitter engine and simulate thousands of users interact with that engine.
+
+Interacts include: register account, log in, sent tweet, re-tweet, subscribe, query using subscriber name, using hashtag, using mentioned.   
 
 ## What does this simulaotr do:
 
