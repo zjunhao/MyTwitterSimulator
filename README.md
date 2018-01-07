@@ -15,7 +15,7 @@ On receiving the "behavior", each process first register an account, and then ma
    
 ****Notice:****
 
-* Follower number of each user obeys zipf distribution, which means only small number of accounts have large number of followers, most accounts just have few number of followers; And user account that has large number of followers sent more tweets. Which is more close to real world condition and all controlled by input paramaters to start simulator as mentioned below.   
+* Follower number of each user obeys zipf distribution, which means only small number of accounts have large number of followers, most accounts just have few number of followers; And user account that has large number of followers sends more tweets. Which is more close to real world situation and all controlled by input paramaters to start simulator as mentioned below.   
 
 * Tweet live for user are got without queueing, rather, we use "push notification", in which new tweets are sent to all related user and stored locally.
 
