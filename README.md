@@ -29,9 +29,9 @@ On receiving the "behavior", each process first register an account, and then ma
 
 n: number of users you want to simulate; n must be positive integer
 
-s: param of zipf distribution which controls the shape of distribution curve; should be positive; example values(1,2,3,...); P(x) = c/(x^s); followers number of each user obeys zipf distribution
+s: param of zipf distribution which controls the shape of distribution curve; should be positive; example values(1,2,3,...); `P(x) = c/(x^s)`; followers number of each user obeys zipf distribution
    
-a,b: params to control number of tweets each user will send, which is a*number_of_followers+b (so that users with more followers will send more tweets, which is closer to real world situation); a,b must be positive
+a,b: params to control number of tweets each user will send, which is `a*number_of_followers+b` (so that users with more followers will send more tweets, which is closer to real world situation); a,b must be positive
 
 ****Result type:****
 
